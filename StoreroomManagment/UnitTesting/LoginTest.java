@@ -9,12 +9,12 @@ class LoginTest {
 	
  @Test
 	void testLoging() {
-		tester.Loging(12,"123");
-		assertEquals("admin",tester.ReturnRole());
-		tester.Loging(1,"123");
-		assertEquals("sales",tester.ReturnRole());	
-		tester.Loging(0,"123");
-		assertEquals("no",tester.ReturnRole());	
+		tester.loging(12,"123");
+		assertEquals("admin",tester.returnRole());
+		tester.loging(1,"123");
+		assertEquals("sales",tester.returnRole());	
+		tester.loging(0,"123");
+		assertEquals("no",tester.returnRole());	
 	}
 
 

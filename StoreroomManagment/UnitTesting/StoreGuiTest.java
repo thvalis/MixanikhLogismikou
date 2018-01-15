@@ -9,7 +9,7 @@ class StoreGuiTest {
 	StoreGui test = new StoreGui();
 
 	@Test
-	void testInitialize() {
+	void testStoreGui() {
 	}
 
 }

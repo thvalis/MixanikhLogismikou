@@ -6,19 +6,17 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-import javax.swing.JOptionPane;
 
-import view.StoreGui;
 
 
 public class Product {
 	
-	private String pinfo;
-	private int pid;
-	private int stock;
-	private int existflag;
+	private String pinfo=null;
+	private int pid=0;
+	private int stock=0;
+	private int existflag=0;
 		
-	public int ProductSearch(int pid)
+	public int productSearch(int pid)
 		{
 		this.pid=pid;
 		Connection conn=null;
@@ -57,7 +55,7 @@ public class Product {
 		return 0;
 		}
 	
-	public int ProductUpd(int pid,int stock) {
+	public int productUpd(int pid,int stock) {
 		this.pid=pid;
 		this.stock=stock;
 		
@@ -86,7 +84,7 @@ public class Product {
 		}
 		return 0;}
 
-	public int ProductNew(int pid,String pinfo,int stock) {
+	public int productNew(int pid,String pinfo,int stock) {
 		this.pid=pid;
 		this.stock=stock;
 		this.pinfo=pinfo;
@@ -95,7 +93,7 @@ public class Product {
 		ResultSet rs=null;
 		try
 		{
-			existflag=ProductSearch(pid);
+			existflag=productSearch(pid);
 			if (existflag==1) {return 0;}
 			else {
 			Class.forName("com.mysql.jdbc.Driver").newInstance();
@@ -123,9 +121,9 @@ public class Product {
 	
 	
 	
-	public int ProductRetpid(){return pid;}
-	public String ProductRetpinf() {return pinfo;}
-	public int ProductRetstck() {return stock;}
+	public int productRetpid(){return pid;}
+	public String productRetpinf() {return pinfo;}
+	public int productRetstck() {return stock;}
 
 	
 

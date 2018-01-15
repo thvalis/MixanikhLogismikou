@@ -6,7 +6,6 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-import view.StoreGui;
 
 public class Login {
 	
@@ -14,7 +13,7 @@ public class Login {
 	private int id;
 	private String pass;
 	
-	public void Loging(int id,String pass) {
+	public void loging(int id,String pass) {
 		this.id=id;
 		this.pass=pass;
 		Connection conn=null;
@@ -45,7 +44,7 @@ public class Login {
 	}
 
 	
-	public String ReturnRole() {
+	public String returnRole() {
 		return role;
 	}
 
