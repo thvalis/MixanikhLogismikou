@@ -1,456 +1,402 @@
-src/model/Login.java:9:	Avoid unused imports such as 'view.StoreGui'
-src/model/Login.java:11:	headerCommentRequirement Required
+UnitTesting/LoginTest.java:7:	All classes and interfaces must belong to a named package
+UnitTesting/LoginTest.java:7:	Each class should declare at least one constructor
+UnitTesting/LoginTest.java:7:	headerCommentRequirement Required
+UnitTesting/LoginTest.java:8:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+UnitTesting/LoginTest.java:8:	Private field 'tester' could be made final; it is only initialized in the declaration or constructor.
+UnitTesting/LoginTest.java:8:	fieldCommentRequirement Required
+UnitTesting/LoginTest.java:10:	Use explicit scoping instead of the default package private level
+UnitTesting/LoginTest.java:11:	JUnit tests should not contain more than 1 assert(s).
+UnitTesting/LoginTest.java:11:	To avoid mistakes add a comment at the beginning of the testLoging method if you want a default access modifier
+UnitTesting/ProductTest.java:8:	All classes and interfaces must belong to a named package
+UnitTesting/ProductTest.java:8:	Each class should declare at least one constructor
+UnitTesting/ProductTest.java:8:	headerCommentRequirement Required
+UnitTesting/ProductTest.java:9:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+UnitTesting/ProductTest.java:9:	To avoid mistakes add a comment at the beginning of the test field if you want a default access modifier
+UnitTesting/ProductTest.java:9:	Use explicit scoping instead of the default package private level
+UnitTesting/ProductTest.java:9:	fieldCommentRequirement Required
+UnitTesting/ProductTest.java:10:	Use explicit scoping instead of the default package private level
+UnitTesting/ProductTest.java:11:	To avoid mistakes add a comment at the beginning of the testProductSearch method if you want a default access modifier
+UnitTesting/ProductTest.java:12:	The String literal "Result" appears 4 times in this file; the first occurrence is on line 12
+UnitTesting/ProductTest.java:15:	Use explicit scoping instead of the default package private level
+UnitTesting/ProductTest.java:16:	To avoid mistakes add a comment at the beginning of the testProductUpd method if you want a default access modifier
+UnitTesting/ProductTest.java:20:	Use explicit scoping instead of the default package private level
+UnitTesting/ProductTest.java:21:	JUnit tests should not contain more than 1 assert(s).
+UnitTesting/ProductTest.java:21:	To avoid mistakes add a comment at the beginning of the testProductNew method if you want a default access modifier
+UnitTesting/StoreGuiTest.java:7:	All classes and interfaces must belong to a named package
+UnitTesting/StoreGuiTest.java:7:	Each class should declare at least one constructor
+UnitTesting/StoreGuiTest.java:7:	headerCommentRequirement Required
+UnitTesting/StoreGuiTest.java:9:	To avoid mistakes add a comment at the beginning of the test field if you want a default access modifier
+UnitTesting/StoreGuiTest.java:9:	Use explicit scoping instead of the default package private level
+UnitTesting/StoreGuiTest.java:9:	fieldCommentRequirement Required
+UnitTesting/StoreGuiTest.java:11:	Use explicit scoping instead of the default package private level
+UnitTesting/StoreGuiTest.java:12:	Document empty method body
+UnitTesting/StoreGuiTest.java:12:	To avoid mistakes add a comment at the beginning of the testStoreGui method if you want a default access modifier
+src/model/Login.java:10:	Each class should declare at least one constructor
+src/model/Login.java:10:	headerCommentRequirement Required
+src/model/Login.java:12:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/model/Login.java:12:	fieldCommentRequirement Required
+src/model/Login.java:13:	Avoid unused private fields such as 'id'.
+src/model/Login.java:13:	Avoid variables with short names like id
 src/model/Login.java:13:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/model/Login.java:13:	Perhaps 'id' could be replaced by a local variable.
 src/model/Login.java:13:	fieldCommentRequirement Required
-src/model/Login.java:14:	Avoid unused private fields such as 'id'.
-src/model/Login.java:14:	Avoid variables with short names like id
+src/model/Login.java:14:	Avoid unused private fields such as 'pass'.
 src/model/Login.java:14:	Found non-transient, non-static member. Please mark as transient or provide accessors.
-src/model/Login.java:14:	Perhaps 'id' could be replaced by a local variable.
-src/model/Login.java:14:	Private field 'id' could be made final; it is only initialized in the declaration or constructor.
+src/model/Login.java:14:	Perhaps 'pass' could be replaced by a local variable.
 src/model/Login.java:14:	fieldCommentRequirement Required
-src/model/Login.java:15:	Avoid unused private fields such as 'pass'.
-src/model/Login.java:15:	Found non-transient, non-static member. Please mark as transient or provide accessors.
-src/model/Login.java:15:	Perhaps 'pass' could be replaced by a local variable.
-src/model/Login.java:15:	Private field 'pass' could be made final; it is only initialized in the declaration or constructor.
-src/model/Login.java:15:	fieldCommentRequirement Required
-src/model/Login.java:17:	Avoid variables with short names like id
-src/model/Login.java:17:	Parameter 'id' is not assigned and could be declared final
-src/model/Login.java:17:	Parameter 'pass' is not assigned and could be declared final
-src/model/Login.java:17:	publicMethodCommentRequirement Required
-src/model/Login.java:22:	Avoid variables with short names like rs
-src/model/Login.java:26:	Local variable 'connectionUrl' could be declared final
-src/model/Login.java:27:	Local variable 'connectionUser' could be declared final
-src/model/Login.java:28:	Avoid excessively long variable names like connectionPassword
-src/model/Login.java:28:	Local variable 'connectionPassword' could be declared final
-src/model/Login.java:37:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
-src/model/Login.java:37:	Avoid printStackTrace(); use a logger call instead.
+src/model/Login.java:16:	Avoid variables with short names like id
+src/model/Login.java:16:	Parameter 'id' is not assigned and could be declared final
+src/model/Login.java:16:	Parameter 'pass' is not assigned and could be declared final
+src/model/Login.java:16:	publicMethodCommentRequirement Required
+src/model/Login.java:19:	Found 'DD'-anomaly for variable 'conn' (lines '19'-'28').
+src/model/Login.java:20:	Found 'DD'-anomaly for variable 'stmt' (lines '20'-'29').
+src/model/Login.java:21:	Avoid variables with short names like rs
+src/model/Login.java:21:	Found 'DD'-anomaly for variable 'rs' (lines '21'-'32').
+src/model/Login.java:24:	Potential violation of Law of Demeter (method chain calls)
+src/model/Login.java:25:	Local variable 'connectionUrl' could be declared final
+src/model/Login.java:26:	Local variable 'connectionUser' could be declared final
+src/model/Login.java:27:	Avoid excessively long variable names like connectionPassword
+src/model/Login.java:27:	Local variable 'connectionPassword' could be declared final
+src/model/Login.java:29:	Potential violation of Law of Demeter (object not created locally)
+src/model/Login.java:30:	Potential violation of Law of Demeter (object not created locally)
+src/model/Login.java:31:	Potential violation of Law of Demeter (object not created locally)
+src/model/Login.java:32:	Potential violation of Law of Demeter (object not created locally)
+src/model/Login.java:34:	Potential violation of Law of Demeter (object not created locally)
+src/model/Login.java:35:	Potential violation of Law of Demeter (object not created locally)
+src/model/Login.java:36:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/model/Login.java:36:	Avoid printStackTrace(); use a logger call instead.
+src/model/Login.java:40:	Avoid printStackTrace(); use a logger call instead.
+src/model/Login.java:40:	Avoid using if statements without curly braces
+src/model/Login.java:40:	Potential violation of Law of Demeter (object not created locally)
 src/model/Login.java:41:	Avoid printStackTrace(); use a logger call instead.
 src/model/Login.java:41:	Avoid using if statements without curly braces
+src/model/Login.java:41:	Potential violation of Law of Demeter (object not created locally)
 src/model/Login.java:42:	Avoid printStackTrace(); use a logger call instead.
 src/model/Login.java:42:	Avoid using if statements without curly braces
-src/model/Login.java:43:	Avoid printStackTrace(); use a logger call instead.
-src/model/Login.java:43:	Avoid using if statements without curly braces
-src/model/Login.java:48:	Method names should not start with capital letters
-src/model/Login.java:48:	publicMethodCommentRequirement Required
-src/model/Product.java:9:	Avoid unused imports such as 'javax.swing.JOptionPane'
-src/model/Product.java:11:	Avoid unused imports such as 'view.StoreGui'
-src/model/Product.java:14:	headerCommentRequirement Required
+src/model/Login.java:42:	Potential violation of Law of Demeter (object not created locally)
+src/model/Login.java:47:	publicMethodCommentRequirement Required
+src/model/Product.java:12:	Each class should declare at least one constructor
+src/model/Product.java:12:	headerCommentRequirement Required
+src/model/Product.java:14:	Avoid using redundant field initializer for 'pinfo'
+src/model/Product.java:14:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/model/Product.java:14:	fieldCommentRequirement Required
+src/model/Product.java:15:	Avoid using redundant field initializer for 'pid'
+src/model/Product.java:15:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/model/Product.java:15:	fieldCommentRequirement Required
+src/model/Product.java:16:	Avoid using redundant field initializer for 'stock'
 src/model/Product.java:16:	Found non-transient, non-static member. Please mark as transient or provide accessors.
 src/model/Product.java:16:	fieldCommentRequirement Required
+src/model/Product.java:17:	Avoid using redundant field initializer for 'existflag'
 src/model/Product.java:17:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/model/Product.java:17:	Perhaps 'existflag' could be replaced by a local variable.
 src/model/Product.java:17:	fieldCommentRequirement Required
-src/model/Product.java:18:	Found non-transient, non-static member. Please mark as transient or provide accessors.
-src/model/Product.java:18:	fieldCommentRequirement Required
-src/model/Product.java:20:	Avoid unnecessary constructors - the compiler will generate these for you
-src/model/Product.java:20:	Document empty constructor
-src/model/Product.java:20:	publicMethodCommentRequirement Required
-src/model/Product.java:25:	Avoid reassigning parameters such as 'pid'
-src/model/Product.java:25:	Method names should not start with capital letters
-src/model/Product.java:25:	publicMethodCommentRequirement Required
-src/model/Product.java:28:	Found 'DD'-anomaly for variable 'conn' (lines '28'-'37').
-src/model/Product.java:29:	Found 'DD'-anomaly for variable 'stmt' (lines '29'-'38').
-src/model/Product.java:30:	Avoid variables with short names like rs
-src/model/Product.java:30:	Found 'DD'-anomaly for variable 'rs' (lines '30'-'40').
-src/model/Product.java:33:	Potential violation of Law of Demeter (method chain calls)
-src/model/Product.java:34:	Local variable 'connectionUrl' could be declared final
-src/model/Product.java:35:	Local variable 'connectionUser' could be declared final
-src/model/Product.java:36:	Avoid excessively long variable names like connectionPassword
-src/model/Product.java:36:	Local variable 'connectionPassword' could be declared final
+src/model/Product.java:19:	Avoid reassigning parameters such as 'pid'
+src/model/Product.java:19:	publicMethodCommentRequirement Required
+src/model/Product.java:22:	Found 'DD'-anomaly for variable 'conn' (lines '22'-'31').
+src/model/Product.java:23:	Found 'DD'-anomaly for variable 'stmt' (lines '23'-'32').
+src/model/Product.java:24:	Avoid variables with short names like rs
+src/model/Product.java:24:	Found 'DD'-anomaly for variable 'rs' (lines '24'-'34').
+src/model/Product.java:27:	Potential violation of Law of Demeter (method chain calls)
+src/model/Product.java:28:	Local variable 'connectionUrl' could be declared final
+src/model/Product.java:29:	Local variable 'connectionUser' could be declared final
+src/model/Product.java:30:	Avoid excessively long variable names like connectionPassword
+src/model/Product.java:30:	Local variable 'connectionPassword' could be declared final
+src/model/Product.java:32:	Potential violation of Law of Demeter (object not created locally)
+src/model/Product.java:33:	Potential violation of Law of Demeter (object not created locally)
+src/model/Product.java:34:	Potential violation of Law of Demeter (object not created locally)
+src/model/Product.java:36:	Potential violation of Law of Demeter (object not created locally)
 src/model/Product.java:38:	Potential violation of Law of Demeter (object not created locally)
 src/model/Product.java:39:	Potential violation of Law of Demeter (object not created locally)
 src/model/Product.java:40:	Potential violation of Law of Demeter (object not created locally)
-src/model/Product.java:42:	Potential violation of Law of Demeter (object not created locally)
-src/model/Product.java:44:	Potential violation of Law of Demeter (object not created locally)
-src/model/Product.java:45:	Potential violation of Law of Demeter (object not created locally)
-src/model/Product.java:46:	Potential violation of Law of Demeter (object not created locally)
-src/model/Product.java:47:	A method should have only one exit point, and that should be the last statement in the method
-src/model/Product.java:51:	A method should have only one exit point, and that should be the last statement in the method
-src/model/Product.java:53:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/model/Product.java:41:	A method should have only one exit point, and that should be the last statement in the method
+src/model/Product.java:45:	A method should have only one exit point, and that should be the last statement in the method
+src/model/Product.java:47:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/model/Product.java:47:	Avoid printStackTrace(); use a logger call instead.
+src/model/Product.java:51:	Avoid printStackTrace(); use a logger call instead.
+src/model/Product.java:51:	Avoid using if statements without curly braces
+src/model/Product.java:51:	Potential violation of Law of Demeter (object not created locally)
+src/model/Product.java:52:	Avoid printStackTrace(); use a logger call instead.
+src/model/Product.java:52:	Avoid using if statements without curly braces
+src/model/Product.java:52:	Potential violation of Law of Demeter (object not created locally)
 src/model/Product.java:53:	Avoid printStackTrace(); use a logger call instead.
-src/model/Product.java:57:	Avoid printStackTrace(); use a logger call instead.
-src/model/Product.java:57:	Avoid using if statements without curly braces
-src/model/Product.java:57:	Potential violation of Law of Demeter (object not created locally)
-src/model/Product.java:58:	Avoid printStackTrace(); use a logger call instead.
-src/model/Product.java:58:	Avoid using if statements without curly braces
-src/model/Product.java:58:	Potential violation of Law of Demeter (object not created locally)
-src/model/Product.java:59:	Avoid printStackTrace(); use a logger call instead.
-src/model/Product.java:59:	Avoid using if statements without curly braces
-src/model/Product.java:59:	Potential violation of Law of Demeter (object not created locally)
-src/model/Product.java:64:	Method names should not start with capital letters
-src/model/Product.java:64:	Parameter 'pid' is not assigned and could be declared final
-src/model/Product.java:64:	Parameter 'stock' is not assigned and could be declared final
-src/model/Product.java:64:	publicMethodCommentRequirement Required
-src/model/Product.java:68:	Found 'DD'-anomaly for variable 'conn' (lines '68'-'78').
-src/model/Product.java:69:	Found 'DD'-anomaly for variable 'stmt' (lines '69'-'79').
-src/model/Product.java:70:	Avoid variables with short names like rs
-src/model/Product.java:70:	Found 'DU'-anomaly for variable 'rs' (lines '70'-'91').
-src/model/Product.java:70:	Local variable 'rs' could be declared final
-src/model/Product.java:74:	Potential violation of Law of Demeter (method chain calls)
-src/model/Product.java:75:	Local variable 'connectionUrl' could be declared final
-src/model/Product.java:76:	Local variable 'connectionUser' could be declared final
-src/model/Product.java:77:	Avoid excessively long variable names like connectionPassword
-src/model/Product.java:77:	Local variable 'connectionPassword' could be declared final
-src/model/Product.java:79:	Potential violation of Law of Demeter (object not created locally)
-src/model/Product.java:80:	Local variable 'sql' could be declared final
+src/model/Product.java:53:	Avoid using if statements without curly braces
+src/model/Product.java:53:	Potential violation of Law of Demeter (object not created locally)
+src/model/Product.java:58:	Parameter 'pid' is not assigned and could be declared final
+src/model/Product.java:58:	Parameter 'stock' is not assigned and could be declared final
+src/model/Product.java:58:	publicMethodCommentRequirement Required
+src/model/Product.java:62:	Found 'DD'-anomaly for variable 'conn' (lines '62'-'72').
+src/model/Product.java:63:	Found 'DD'-anomaly for variable 'stmt' (lines '63'-'73').
+src/model/Product.java:64:	Avoid variables with short names like rs
+src/model/Product.java:64:	Found 'DU'-anomaly for variable 'rs' (lines '64'-'85').
+src/model/Product.java:64:	Local variable 'rs' could be declared final
+src/model/Product.java:68:	Potential violation of Law of Demeter (method chain calls)
+src/model/Product.java:69:	Local variable 'connectionUrl' could be declared final
+src/model/Product.java:70:	Local variable 'connectionUser' could be declared final
+src/model/Product.java:71:	Avoid excessively long variable names like connectionPassword
+src/model/Product.java:71:	Local variable 'connectionPassword' could be declared final
+src/model/Product.java:73:	Potential violation of Law of Demeter (object not created locally)
+src/model/Product.java:74:	Local variable 'sql' could be declared final
+src/model/Product.java:75:	Potential violation of Law of Demeter (object not created locally)
+src/model/Product.java:76:	A method should have only one exit point, and that should be the last statement in the method
+src/model/Product.java:77:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/model/Product.java:77:	Avoid printStackTrace(); use a logger call instead.
+src/model/Product.java:81:	Avoid printStackTrace(); use a logger call instead.
+src/model/Product.java:81:	Avoid using if statements without curly braces
 src/model/Product.java:81:	Potential violation of Law of Demeter (object not created locally)
-src/model/Product.java:82:	A method should have only one exit point, and that should be the last statement in the method
-src/model/Product.java:83:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/model/Product.java:82:	Avoid printStackTrace(); use a logger call instead.
+src/model/Product.java:82:	Avoid using if statements without curly braces
+src/model/Product.java:82:	Potential violation of Law of Demeter (object not created locally)
 src/model/Product.java:83:	Avoid printStackTrace(); use a logger call instead.
-src/model/Product.java:87:	Avoid printStackTrace(); use a logger call instead.
-src/model/Product.java:87:	Avoid using if statements without curly braces
-src/model/Product.java:87:	Potential violation of Law of Demeter (object not created locally)
-src/model/Product.java:88:	Avoid printStackTrace(); use a logger call instead.
-src/model/Product.java:88:	Avoid using if statements without curly braces
-src/model/Product.java:88:	Potential violation of Law of Demeter (object not created locally)
-src/model/Product.java:89:	Avoid printStackTrace(); use a logger call instead.
-src/model/Product.java:89:	Avoid using if statements without curly braces
-src/model/Product.java:89:	Potential violation of Law of Demeter (object not created locally)
-src/model/Product.java:93:	Method names should not start with capital letters
-src/model/Product.java:93:	Parameter 'pid' is not assigned and could be declared final
-src/model/Product.java:93:	Parameter 'pinfo' is not assigned and could be declared final
-src/model/Product.java:93:	Parameter 'stock' is not assigned and could be declared final
-src/model/Product.java:93:	publicMethodCommentRequirement Required
-src/model/Product.java:97:	Found 'DD'-anomaly for variable 'conn' (lines '97'-'106').
-src/model/Product.java:98:	Found 'DD'-anomaly for variable 'stmt' (lines '98'-'107').
-src/model/Product.java:99:	Avoid variables with short names like rs
-src/model/Product.java:99:	Found 'DU'-anomaly for variable 'rs' (lines '99'-'123').
-src/model/Product.java:99:	Local variable 'rs' could be declared final
-src/model/Product.java:102:	Potential violation of Law of Demeter (method chain calls)
-src/model/Product.java:103:	Local variable 'connectionUrl' could be declared final
-src/model/Product.java:104:	Local variable 'connectionUser' could be declared final
-src/model/Product.java:105:	Avoid excessively long variable names like connectionPassword
-src/model/Product.java:105:	Local variable 'connectionPassword' could be declared final
+src/model/Product.java:83:	Avoid using if statements without curly braces
+src/model/Product.java:83:	Potential violation of Law of Demeter (object not created locally)
+src/model/Product.java:87:	Parameter 'pid' is not assigned and could be declared final
+src/model/Product.java:87:	Parameter 'pinfo' is not assigned and could be declared final
+src/model/Product.java:87:	Parameter 'stock' is not assigned and could be declared final
+src/model/Product.java:87:	publicMethodCommentRequirement Required
+src/model/Product.java:91:	Found 'DD'-anomaly for variable 'conn' (lines '91'-'103').
+src/model/Product.java:91:	Found 'DU'-anomaly for variable 'conn' (lines '91'-'120').
+src/model/Product.java:92:	Found 'DD'-anomaly for variable 'stmt' (lines '92'-'104').
+src/model/Product.java:92:	Found 'DU'-anomaly for variable 'stmt' (lines '92'-'120').
+src/model/Product.java:93:	Avoid variables with short names like rs
+src/model/Product.java:93:	Found 'DU'-anomaly for variable 'rs' (lines '93'-'120').
+src/model/Product.java:93:	Local variable 'rs' could be declared final
+src/model/Product.java:97:	A method should have only one exit point, and that should be the last statement in the method
+src/model/Product.java:97:	Avoid using Literals in Conditional Statements
+src/model/Product.java:99:	Potential violation of Law of Demeter (method chain calls)
+src/model/Product.java:100:	Local variable 'connectionUrl' could be declared final
+src/model/Product.java:101:	Local variable 'connectionUser' could be declared final
+src/model/Product.java:102:	Avoid excessively long variable names like connectionPassword
+src/model/Product.java:102:	Local variable 'connectionPassword' could be declared final
+src/model/Product.java:104:	Potential violation of Law of Demeter (object not created locally)
+src/model/Product.java:105:	Potential violation of Law of Demeter (object not created locally)
+src/model/Product.java:106:	Potential violation of Law of Demeter (object not created locally)
 src/model/Product.java:107:	Potential violation of Law of Demeter (object not created locally)
 src/model/Product.java:108:	Potential violation of Law of Demeter (object not created locally)
-src/model/Product.java:109:	Potential violation of Law of Demeter (object not created locally)
-src/model/Product.java:110:	Potential violation of Law of Demeter (object not created locally)
-src/model/Product.java:111:	Potential violation of Law of Demeter (object not created locally)
-src/model/Product.java:112:	A method should have only one exit point, and that should be the last statement in the method
-src/model/Product.java:113:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
-src/model/Product.java:113:	Avoid printStackTrace(); use a logger call instead.
-src/model/Product.java:117:	Avoid printStackTrace(); use a logger call instead.
-src/model/Product.java:117:	Avoid using if statements without curly braces
-src/model/Product.java:117:	Potential violation of Law of Demeter (object not created locally)
-src/model/Product.java:118:	Avoid printStackTrace(); use a logger call instead.
-src/model/Product.java:118:	Avoid using if statements without curly braces
-src/model/Product.java:118:	Potential violation of Law of Demeter (object not created locally)
-src/model/Product.java:119:	Avoid printStackTrace(); use a logger call instead.
-src/model/Product.java:119:	Avoid using if statements without curly braces
-src/model/Product.java:119:	Potential violation of Law of Demeter (object not created locally)
-src/model/Product.java:127:	Method names should not start with capital letters
-src/model/Product.java:127:	publicMethodCommentRequirement Required
-src/model/Product.java:128:	Method names should not start with capital letters
-src/model/Product.java:128:	publicMethodCommentRequirement Required
-src/model/Product.java:129:	Method names should not start with capital letters
-src/model/Product.java:129:	publicMethodCommentRequirement Required
-src/view/StoreGui.java:14:	Avoid duplicate imports such as 'java.sql.Connection'
-src/view/StoreGui.java:14:	Avoid unused imports such as 'java.sql.Connection'
-src/view/StoreGui.java:15:	Avoid duplicate imports such as 'java.sql.DriverManager'
-src/view/StoreGui.java:15:	Avoid unused imports such as 'java.sql.DriverManager'
-src/view/StoreGui.java:16:	Avoid duplicate imports such as 'java.sql.PreparedStatement'
-src/view/StoreGui.java:16:	Avoid unused imports such as 'java.sql.PreparedStatement'
-src/view/StoreGui.java:17:	Avoid duplicate imports such as 'java.sql.ResultSet'
-src/view/StoreGui.java:17:	Avoid unused imports such as 'java.sql.ResultSet'
-src/view/StoreGui.java:18:	Avoid duplicate imports such as 'java.sql.SQLException'
-src/view/StoreGui.java:18:	Avoid unused imports such as 'java.sql.SQLException'
-src/view/StoreGui.java:27:	The class 'StoreGui' has a Cyclomatic Complexity of 13 (Highest = 34).
-src/view/StoreGui.java:27:	The class 'StoreGui' has a Modified Cyclomatic Complexity of 13 (Highest = 34).
-src/view/StoreGui.java:27:	The class 'StoreGui' has a Standard Cyclomatic Complexity of 13 (Highest = 34).
-src/view/StoreGui.java:27:	headerCommentRequirement Required
+src/model/Product.java:109:	A method should have only one exit point, and that should be the last statement in the method
+src/model/Product.java:110:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/model/Product.java:110:	Avoid printStackTrace(); use a logger call instead.
+src/model/Product.java:114:	Avoid printStackTrace(); use a logger call instead.
+src/model/Product.java:114:	Avoid using if statements without curly braces
+src/model/Product.java:114:	Potential violation of Law of Demeter (object not created locally)
+src/model/Product.java:115:	Avoid printStackTrace(); use a logger call instead.
+src/model/Product.java:115:	Avoid using if statements without curly braces
+src/model/Product.java:115:	Potential violation of Law of Demeter (object not created locally)
+src/model/Product.java:116:	Avoid printStackTrace(); use a logger call instead.
+src/model/Product.java:116:	Avoid using if statements without curly braces
+src/model/Product.java:116:	Potential violation of Law of Demeter (object not created locally)
+src/model/Product.java:124:	publicMethodCommentRequirement Required
+src/model/Product.java:125:	publicMethodCommentRequirement Required
+src/model/Product.java:126:	publicMethodCommentRequirement Required
+src/view/StoreGui.java:22:	The class 'StoreGui' has a Cyclomatic Complexity of 13 (Highest = 34).
+src/view/StoreGui.java:22:	The class 'StoreGui' has a Modified Cyclomatic Complexity of 13 (Highest = 34).
+src/view/StoreGui.java:22:	The class 'StoreGui' has a Standard Cyclomatic Complexity of 13 (Highest = 34).
+src/view/StoreGui.java:22:	headerCommentRequirement Required
+src/view/StoreGui.java:24:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/view/StoreGui.java:24:	fieldCommentRequirement Required
+src/view/StoreGui.java:25:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/view/StoreGui.java:25:	fieldCommentRequirement Required
+src/view/StoreGui.java:26:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/view/StoreGui.java:26:	fieldCommentRequirement Required
+src/view/StoreGui.java:27:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/view/StoreGui.java:27:	fieldCommentRequirement Required
+src/view/StoreGui.java:28:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/view/StoreGui.java:28:	fieldCommentRequirement Required
 src/view/StoreGui.java:29:	Found non-transient, non-static member. Please mark as transient or provide accessors.
 src/view/StoreGui.java:29:	fieldCommentRequirement Required
 src/view/StoreGui.java:30:	Found non-transient, non-static member. Please mark as transient or provide accessors.
-src/view/StoreGui.java:30:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'TF_id' is not final.
-src/view/StoreGui.java:30:	Variables should start with a lowercase character, 'TF_id' starts with uppercase character.
 src/view/StoreGui.java:30:	fieldCommentRequirement Required
 src/view/StoreGui.java:31:	Found non-transient, non-static member. Please mark as transient or provide accessors.
-src/view/StoreGui.java:31:	The field name indicates a constant but its modifiers do not
-src/view/StoreGui.java:31:	Variables should start with a lowercase character, 'PSWF' starts with uppercase character.
 src/view/StoreGui.java:31:	fieldCommentRequirement Required
 src/view/StoreGui.java:32:	Found non-transient, non-static member. Please mark as transient or provide accessors.
-src/view/StoreGui.java:32:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'TF_pid1' is not final.
-src/view/StoreGui.java:32:	Variables should start with a lowercase character, 'TF_pid1' starts with uppercase character.
 src/view/StoreGui.java:32:	fieldCommentRequirement Required
 src/view/StoreGui.java:33:	Found non-transient, non-static member. Please mark as transient or provide accessors.
-src/view/StoreGui.java:33:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'TF_pid2' is not final.
-src/view/StoreGui.java:33:	Variables should start with a lowercase character, 'TF_pid2' starts with uppercase character.
+src/view/StoreGui.java:33:	To avoid mistakes add a comment at the beginning of the role field if you want a default access modifier
+src/view/StoreGui.java:33:	Use explicit scoping instead of the default package private level
 src/view/StoreGui.java:33:	fieldCommentRequirement Required
 src/view/StoreGui.java:34:	Found non-transient, non-static member. Please mark as transient or provide accessors.
-src/view/StoreGui.java:34:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'TF_pidn' is not final.
-src/view/StoreGui.java:34:	Variables should start with a lowercase character, 'TF_pidn' starts with uppercase character.
+src/view/StoreGui.java:34:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/view/StoreGui.java:34:	To avoid mistakes add a comment at the beginning of the retf field if you want a default access modifier
+src/view/StoreGui.java:34:	Use explicit scoping instead of the default package private level
 src/view/StoreGui.java:34:	fieldCommentRequirement Required
-src/view/StoreGui.java:35:	Found non-transient, non-static member. Please mark as transient or provide accessors.
-src/view/StoreGui.java:35:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'TF_pinfn' is not final.
-src/view/StoreGui.java:35:	Variables should start with a lowercase character, 'TF_pinfn' starts with uppercase character.
-src/view/StoreGui.java:35:	fieldCommentRequirement Required
-src/view/StoreGui.java:36:	Found non-transient, non-static member. Please mark as transient or provide accessors.
-src/view/StoreGui.java:36:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'TF_stockn' is not final.
-src/view/StoreGui.java:36:	Variables should start with a lowercase character, 'TF_stockn' starts with uppercase character.
-src/view/StoreGui.java:36:	fieldCommentRequirement Required
-src/view/StoreGui.java:37:	Found non-transient, non-static member. Please mark as transient or provide accessors.
-src/view/StoreGui.java:37:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'TF_stockUpd' is not final.
-src/view/StoreGui.java:37:	Variables should start with a lowercase character, 'TF_stockUpd' starts with uppercase character.
-src/view/StoreGui.java:37:	fieldCommentRequirement Required
-src/view/StoreGui.java:38:	Found non-transient, non-static member. Please mark as transient or provide accessors.
-src/view/StoreGui.java:38:	To avoid mistakes add a comment at the beginning of the role field if you want a default access modifier
-src/view/StoreGui.java:38:	Use explicit scoping instead of the default package private level
-src/view/StoreGui.java:38:	fieldCommentRequirement Required
-src/view/StoreGui.java:39:	Found non-transient, non-static member. Please mark as transient or provide accessors.
-src/view/StoreGui.java:39:	Found non-transient, non-static member. Please mark as transient or provide accessors.
-src/view/StoreGui.java:39:	To avoid mistakes add a comment at the beginning of the retf field if you want a default access modifier
-src/view/StoreGui.java:39:	Use explicit scoping instead of the default package private level
-src/view/StoreGui.java:39:	fieldCommentRequirement Required
-src/view/StoreGui.java:43:	Parameter 'args' is not assigned and could be declared final
-src/view/StoreGui.java:44:	To be compliant to J2EE, a webapp should not use any thread.
-src/view/StoreGui.java:45:	publicMethodCommentRequirement Required
-src/view/StoreGui.java:47:	Local variable 'window' could be declared final
-src/view/StoreGui.java:48:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
-src/view/StoreGui.java:48:	Potential violation of Law of Demeter (static property access)
-src/view/StoreGui.java:49:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
-src/view/StoreGui.java:50:	Avoid printStackTrace(); use a logger call instead.
-src/view/StoreGui.java:59:	It is a good practice to call super() in a constructor
-src/view/StoreGui.java:66:	Avoid really long methods.
-src/view/StoreGui.java:66:	The method 'initialize' has a Cyclomatic Complexity of 34.
-src/view/StoreGui.java:66:	The method 'initialize' has a Modified Cyclomatic Complexity of 34.
-src/view/StoreGui.java:66:	The method 'initialize' has a Standard Cyclomatic Complexity of 34.
-src/view/StoreGui.java:66:	The method initialize() has an NCSS line count of 181
-src/view/StoreGui.java:66:	The method initialize() has an NPath complexity of 31104
-src/view/StoreGui.java:72:	Local variable 'Login_GUI' could be declared final
-src/view/StoreGui.java:72:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'Login_GUI' is not final.
-src/view/StoreGui.java:72:	Variables should start with a lowercase character, 'Login_GUI' starts with uppercase character.
-src/view/StoreGui.java:73:	Potential violation of Law of Demeter (method chain calls)
-src/view/StoreGui.java:76:	Local variable 'Manager_GUI' could be declared final
-src/view/StoreGui.java:76:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'Manager_GUI' is not final.
-src/view/StoreGui.java:76:	Variables should start with a lowercase character, 'Manager_GUI' starts with uppercase character.
-src/view/StoreGui.java:77:	Potential violation of Law of Demeter (method chain calls)
-src/view/StoreGui.java:80:	Local variable 'Salesman_GUI' could be declared final
-src/view/StoreGui.java:80:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'Salesman_GUI' is not final.
-src/view/StoreGui.java:80:	Variables should start with a lowercase character, 'Salesman_GUI' starts with uppercase character.
-src/view/StoreGui.java:81:	Potential violation of Law of Demeter (method chain calls)
-src/view/StoreGui.java:84:	Local variable 'Search_GUI' could be declared final
-src/view/StoreGui.java:84:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'Search_GUI' is not final.
-src/view/StoreGui.java:84:	Variables should start with a lowercase character, 'Search_GUI' starts with uppercase character.
-src/view/StoreGui.java:85:	Potential violation of Law of Demeter (method chain calls)
-src/view/StoreGui.java:88:	Local variable 'EditStock_GUI' could be declared final
-src/view/StoreGui.java:88:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'EditStock_GUI' is not final.
-src/view/StoreGui.java:88:	Variables should start with a lowercase character, 'EditStock_GUI' starts with uppercase character.
-src/view/StoreGui.java:89:	Potential violation of Law of Demeter (method chain calls)
-src/view/StoreGui.java:92:	Local variable 'AddNew_GUI' could be declared final
-src/view/StoreGui.java:92:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'AddNew_GUI' is not final.
-src/view/StoreGui.java:92:	Variables should start with a lowercase character, 'AddNew_GUI' starts with uppercase character.
-src/view/StoreGui.java:93:	Potential violation of Law of Demeter (method chain calls)
-src/view/StoreGui.java:97:	Local variable 'LBL_id' could be declared final
-src/view/StoreGui.java:97:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'LBL_id' is not final.
-src/view/StoreGui.java:97:	Variables should start with a lowercase character, 'LBL_id' starts with uppercase character.
-src/view/StoreGui.java:101:	Local variable 'LBL_psw' could be declared final
-src/view/StoreGui.java:101:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'LBL_psw' is not final.
-src/view/StoreGui.java:101:	Variables should start with a lowercase character, 'LBL_psw' starts with uppercase character.
-src/view/StoreGui.java:114:	Local variable 'BTN_login' could be declared final
-src/view/StoreGui.java:114:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'BTN_login' is not final.
-src/view/StoreGui.java:114:	Variables should start with a lowercase character, 'BTN_login' starts with uppercase character.
-src/view/StoreGui.java:124:	Local variable 'LBL_pid1' could be declared final
-src/view/StoreGui.java:124:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'LBL_pid1' is not final.
-src/view/StoreGui.java:124:	Variables should start with a lowercase character, 'LBL_pid1' starts with uppercase character.
-src/view/StoreGui.java:129:	Local variable 'BTN_search1' could be declared final
-src/view/StoreGui.java:129:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'BTN_search1' is not final.
-src/view/StoreGui.java:129:	Variables should start with a lowercase character, 'BTN_search1' starts with uppercase character.
-src/view/StoreGui.java:133:	Local variable 'BTN_update1' could be declared final
-src/view/StoreGui.java:133:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'BTN_update1' is not final.
-src/view/StoreGui.java:133:	Variables should start with a lowercase character, 'BTN_update1' starts with uppercase character.
-src/view/StoreGui.java:137:	Local variable 'BTN_add' could be declared final
-src/view/StoreGui.java:137:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'BTN_add' is not final.
-src/view/StoreGui.java:137:	Variables should start with a lowercase character, 'BTN_add' starts with uppercase character.
-src/view/StoreGui.java:141:	Local variable 'BTN_statistics' could be declared final
-src/view/StoreGui.java:141:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'BTN_statistics' is not final.
-src/view/StoreGui.java:141:	Variables should start with a lowercase character, 'BTN_statistics' starts with uppercase character.
-src/view/StoreGui.java:143:	Avoid variables with short names like e
-src/view/StoreGui.java:143:	Parameter 'e' is not assigned and could be declared final
-src/view/StoreGui.java:143:	publicMethodCommentRequirement Required
-src/view/StoreGui.java:144:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
-src/view/StoreGui.java:150:	Local variable 'BTN_barcode1' could be declared final
-src/view/StoreGui.java:150:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'BTN_barcode1' is not final.
-src/view/StoreGui.java:150:	Variables should start with a lowercase character, 'BTN_barcode1' starts with uppercase character.
-src/view/StoreGui.java:152:	Avoid variables with short names like e
-src/view/StoreGui.java:152:	Parameter 'e' is not assigned and could be declared final
-src/view/StoreGui.java:152:	publicMethodCommentRequirement Required
-src/view/StoreGui.java:153:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
-src/view/StoreGui.java:161:	Local variable 'LBL_pid2' could be declared final
-src/view/StoreGui.java:161:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'LBL_pid2' is not final.
-src/view/StoreGui.java:161:	Variables should start with a lowercase character, 'LBL_pid2' starts with uppercase character.
-src/view/StoreGui.java:171:	Local variable 'BTN_search2' could be declared final
-src/view/StoreGui.java:171:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'BTN_search2' is not final.
-src/view/StoreGui.java:171:	Variables should start with a lowercase character, 'BTN_search2' starts with uppercase character.
-src/view/StoreGui.java:175:	Local variable 'BTN_update2' could be declared final
-src/view/StoreGui.java:175:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'BTN_update2' is not final.
-src/view/StoreGui.java:175:	Variables should start with a lowercase character, 'BTN_update2' starts with uppercase character.
-src/view/StoreGui.java:179:	Local variable 'BTN_barcode2' could be declared final
-src/view/StoreGui.java:179:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'BTN_barcode2' is not final.
-src/view/StoreGui.java:179:	Variables should start with a lowercase character, 'BTN_barcode2' starts with uppercase character.
-src/view/StoreGui.java:181:	Avoid variables with short names like e
-src/view/StoreGui.java:181:	Parameter 'e' is not assigned and could be declared final
-src/view/StoreGui.java:181:	publicMethodCommentRequirement Required
-src/view/StoreGui.java:182:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
-src/view/StoreGui.java:190:	Local variable 'BTN_update3' could be declared final
-src/view/StoreGui.java:190:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'BTN_update3' is not final.
-src/view/StoreGui.java:190:	Variables should start with a lowercase character, 'BTN_update3' starts with uppercase character.
-src/view/StoreGui.java:194:	Local variable 'LBL_pid3' could be declared final
-src/view/StoreGui.java:194:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'LBL_pid3' is not final.
-src/view/StoreGui.java:194:	Variables should start with a lowercase character, 'LBL_pid3' starts with uppercase character.
-src/view/StoreGui.java:195:	The String literal "Tahoma" appears 11 times in this file; the first occurrence is on line 195
-src/view/StoreGui.java:199:	Local variable 'LBL_pinfo1' could be declared final
-src/view/StoreGui.java:199:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'LBL_pinfo1' is not final.
-src/view/StoreGui.java:199:	Variables should start with a lowercase character, 'LBL_pinfo1' starts with uppercase character.
-src/view/StoreGui.java:204:	Local variable 'LBL_stock1' could be declared final
-src/view/StoreGui.java:204:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'LBL_stock1' is not final.
-src/view/StoreGui.java:204:	Variables should start with a lowercase character, 'LBL_stock1' starts with uppercase character.
-src/view/StoreGui.java:209:	Local variable 'LBL_pidval1' could be declared final
-src/view/StoreGui.java:209:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'LBL_pidval1' is not final.
-src/view/StoreGui.java:209:	Variables should start with a lowercase character, 'LBL_pidval1' starts with uppercase character.
-src/view/StoreGui.java:213:	Local variable 'LBL_pinfval1' could be declared final
-src/view/StoreGui.java:213:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'LBL_pinfval1' is not final.
-src/view/StoreGui.java:213:	Variables should start with a lowercase character, 'LBL_pinfval1' starts with uppercase character.
-src/view/StoreGui.java:217:	Local variable 'LBL_stockval1' could be declared final
-src/view/StoreGui.java:217:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'LBL_stockval1' is not final.
-src/view/StoreGui.java:217:	Variables should start with a lowercase character, 'LBL_stockval1' starts with uppercase character.
-src/view/StoreGui.java:221:	Local variable 'BTN_home1' could be declared final
-src/view/StoreGui.java:221:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'BTN_home1' is not final.
-src/view/StoreGui.java:221:	Variables should start with a lowercase character, 'BTN_home1' starts with uppercase character.
-src/view/StoreGui.java:226:	Local variable 'BTN_updatefinal' could be declared final
-src/view/StoreGui.java:226:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'BTN_updatefinal' is not final.
-src/view/StoreGui.java:226:	Variables should start with a lowercase character, 'BTN_updatefinal' starts with uppercase character.
-src/view/StoreGui.java:230:	Local variable 'LBL_pid4' could be declared final
-src/view/StoreGui.java:230:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'LBL_pid4' is not final.
-src/view/StoreGui.java:230:	Variables should start with a lowercase character, 'LBL_pid4' starts with uppercase character.
-src/view/StoreGui.java:235:	Local variable 'LBL_pinfo2' could be declared final
-src/view/StoreGui.java:235:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'LBL_pinfo2' is not final.
-src/view/StoreGui.java:235:	Variables should start with a lowercase character, 'LBL_pinfo2' starts with uppercase character.
-src/view/StoreGui.java:240:	Local variable 'LBL_stock2' could be declared final
-src/view/StoreGui.java:240:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'LBL_stock2' is not final.
-src/view/StoreGui.java:240:	Variables should start with a lowercase character, 'LBL_stock2' starts with uppercase character.
-src/view/StoreGui.java:245:	Local variable 'LBL_pidval2' could be declared final
-src/view/StoreGui.java:245:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'LBL_pidval2' is not final.
-src/view/StoreGui.java:245:	Variables should start with a lowercase character, 'LBL_pidval2' starts with uppercase character.
-src/view/StoreGui.java:249:	Local variable 'LBL_pinfval2' could be declared final
-src/view/StoreGui.java:249:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'LBL_pinfval2' is not final.
-src/view/StoreGui.java:249:	Variables should start with a lowercase character, 'LBL_pinfval2' starts with uppercase character.
-src/view/StoreGui.java:258:	Local variable 'BTN_home2' could be declared final
-src/view/StoreGui.java:258:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'BTN_home2' is not final.
-src/view/StoreGui.java:258:	Variables should start with a lowercase character, 'BTN_home2' starts with uppercase character.
-src/view/StoreGui.java:264:	Local variable 'BTN_AddNew' could be declared final
-src/view/StoreGui.java:264:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'BTN_AddNew' is not final.
-src/view/StoreGui.java:264:	Variables should start with a lowercase character, 'BTN_AddNew' starts with uppercase character.
-src/view/StoreGui.java:269:	Local variable 'lblProductId' could be declared final
-src/view/StoreGui.java:274:	Local variable 'lblProductInfo' could be declared final
-src/view/StoreGui.java:279:	Local variable 'lblStock' could be declared final
-src/view/StoreGui.java:299:	Local variable 'BTN_home3' could be declared final
-src/view/StoreGui.java:299:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'BTN_home3' is not final.
-src/view/StoreGui.java:299:	Variables should start with a lowercase character, 'BTN_home3' starts with uppercase character.
-src/view/StoreGui.java:306:	Avoid variables with short names like e
-src/view/StoreGui.java:306:	Parameter 'e' is not assigned and could be declared final
-src/view/StoreGui.java:306:	publicMethodCommentRequirement Required
-src/view/StoreGui.java:308:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
-src/view/StoreGui.java:308:	Avoid variables with short names like id
-src/view/StoreGui.java:308:	Local variable 'id' could be declared final
-src/view/StoreGui.java:309:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
-src/view/StoreGui.java:309:	Local variable 'pass' could be declared final
-src/view/StoreGui.java:310:	Local variable 'login' could be declared final
-src/view/StoreGui.java:312:	Position literals first in String comparisons
-src/view/StoreGui.java:312:	The String literal "admin" appears 4 times in this file; the first occurrence is on line 312
-src/view/StoreGui.java:317:	Position literals first in String comparisons
-src/view/StoreGui.java:317:	The String literal "sales" appears 4 times in this file; the first occurrence is on line 317
-src/view/StoreGui.java:322:	Position literals first in String comparisons
-src/view/StoreGui.java:324:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
-src/view/StoreGui.java:331:	Avoid variables with short names like e
-src/view/StoreGui.java:331:	Parameter 'e' is not assigned and could be declared final
-src/view/StoreGui.java:331:	publicMethodCommentRequirement Required
-src/view/StoreGui.java:333:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
-src/view/StoreGui.java:333:	Local variable 'pid' could be declared final
-src/view/StoreGui.java:334:	Local variable 'product' could be declared final
-src/view/StoreGui.java:336:	Avoid using Literals in Conditional Statements
-src/view/StoreGui.java:346:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
-src/view/StoreGui.java:346:	The String literal "Product not found" appears 7 times in this file; the first occurrence is on line 346
-src/view/StoreGui.java:346:	The String literal "Search Error" appears 8 times in this file; the first occurrence is on line 346
-src/view/StoreGui.java:352:	Avoid variables with short names like e
-src/view/StoreGui.java:352:	Parameter 'e' is not assigned and could be declared final
-src/view/StoreGui.java:352:	publicMethodCommentRequirement Required
-src/view/StoreGui.java:354:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
-src/view/StoreGui.java:354:	Local variable 'pid' could be declared final
-src/view/StoreGui.java:355:	Local variable 'product' could be declared final
-src/view/StoreGui.java:357:	Avoid using Literals in Conditional Statements
-src/view/StoreGui.java:367:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
-src/view/StoreGui.java:374:	Avoid variables with short names like e
-src/view/StoreGui.java:374:	Parameter 'e' is not assigned and could be declared final
-src/view/StoreGui.java:374:	publicMethodCommentRequirement Required
-src/view/StoreGui.java:376:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
-src/view/StoreGui.java:376:	Local variable 'pid' could be declared final
-src/view/StoreGui.java:377:	Local variable 'product' could be declared final
-src/view/StoreGui.java:379:	Avoid using Literals in Conditional Statements
+src/view/StoreGui.java:38:	Parameter 'args' is not assigned and could be declared final
+src/view/StoreGui.java:39:	To be compliant to J2EE, a webapp should not use any thread.
+src/view/StoreGui.java:40:	publicMethodCommentRequirement Required
+src/view/StoreGui.java:42:	Local variable 'window' could be declared final
+src/view/StoreGui.java:43:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/view/StoreGui.java:43:	Potential violation of Law of Demeter (static property access)
+src/view/StoreGui.java:44:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/view/StoreGui.java:45:	Avoid printStackTrace(); use a logger call instead.
+src/view/StoreGui.java:54:	It is a good practice to call super() in a constructor
+src/view/StoreGui.java:61:	Avoid really long methods.
+src/view/StoreGui.java:61:	The method 'initialize' has a Cyclomatic Complexity of 34.
+src/view/StoreGui.java:61:	The method 'initialize' has a Modified Cyclomatic Complexity of 34.
+src/view/StoreGui.java:61:	The method 'initialize' has a Standard Cyclomatic Complexity of 34.
+src/view/StoreGui.java:61:	The method initialize() has an NCSS line count of 181
+src/view/StoreGui.java:61:	The method initialize() has an NPath complexity of 31104
+src/view/StoreGui.java:67:	Local variable 'loginGUI' could be declared final
+src/view/StoreGui.java:68:	Potential violation of Law of Demeter (method chain calls)
+src/view/StoreGui.java:71:	Local variable 'managerGUI' could be declared final
+src/view/StoreGui.java:72:	Potential violation of Law of Demeter (method chain calls)
+src/view/StoreGui.java:75:	Local variable 'salesmanGUI' could be declared final
+src/view/StoreGui.java:76:	Potential violation of Law of Demeter (method chain calls)
+src/view/StoreGui.java:79:	Local variable 'searchGUI' could be declared final
+src/view/StoreGui.java:80:	Potential violation of Law of Demeter (method chain calls)
+src/view/StoreGui.java:83:	Local variable 'editStockGUI' could be declared final
+src/view/StoreGui.java:84:	Potential violation of Law of Demeter (method chain calls)
+src/view/StoreGui.java:87:	Local variable 'addNewGUI' could be declared final
+src/view/StoreGui.java:88:	Potential violation of Law of Demeter (method chain calls)
+src/view/StoreGui.java:92:	Local variable 'lblid' could be declared final
+src/view/StoreGui.java:96:	Local variable 'lblpsw' could be declared final
+src/view/StoreGui.java:109:	Local variable 'btnlogin' could be declared final
+src/view/StoreGui.java:119:	Local variable 'lblpid1' could be declared final
+src/view/StoreGui.java:124:	Local variable 'btnsearch1' could be declared final
+src/view/StoreGui.java:128:	Local variable 'btnupdate1' could be declared final
+src/view/StoreGui.java:132:	Local variable 'btnadd' could be declared final
+src/view/StoreGui.java:136:	Local variable 'btnstatistics' could be declared final
+src/view/StoreGui.java:138:	Avoid variables with short names like e
+src/view/StoreGui.java:138:	Parameter 'e' is not assigned and could be declared final
+src/view/StoreGui.java:138:	publicMethodCommentRequirement Required
+src/view/StoreGui.java:139:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/view/StoreGui.java:145:	Local variable 'btnbarcode1' could be declared final
+src/view/StoreGui.java:147:	Avoid variables with short names like e
+src/view/StoreGui.java:147:	Parameter 'e' is not assigned and could be declared final
+src/view/StoreGui.java:147:	publicMethodCommentRequirement Required
+src/view/StoreGui.java:148:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/view/StoreGui.java:156:	Local variable 'lblpid2' could be declared final
+src/view/StoreGui.java:166:	Local variable 'btnsearch2' could be declared final
+src/view/StoreGui.java:170:	Local variable 'btnupdate2' could be declared final
+src/view/StoreGui.java:174:	Local variable 'btnbarcode2' could be declared final
+src/view/StoreGui.java:176:	Avoid variables with short names like e
+src/view/StoreGui.java:176:	Parameter 'e' is not assigned and could be declared final
+src/view/StoreGui.java:176:	publicMethodCommentRequirement Required
+src/view/StoreGui.java:177:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/view/StoreGui.java:185:	Local variable 'btnupdate3' could be declared final
+src/view/StoreGui.java:189:	Local variable 'lblpid3' could be declared final
+src/view/StoreGui.java:190:	The String literal "Tahoma" appears 11 times in this file; the first occurrence is on line 190
+src/view/StoreGui.java:194:	Local variable 'lblpinfo1' could be declared final
+src/view/StoreGui.java:199:	Local variable 'lblstock1' could be declared final
+src/view/StoreGui.java:204:	Local variable 'lblpidval1' could be declared final
+src/view/StoreGui.java:208:	Local variable 'lblpinfval1' could be declared final
+src/view/StoreGui.java:212:	Local variable 'lblstockval1' could be declared final
+src/view/StoreGui.java:216:	Local variable 'btnhome1' could be declared final
+src/view/StoreGui.java:221:	Local variable 'btnupdatefinal' could be declared final
+src/view/StoreGui.java:225:	Local variable 'lblpid4' could be declared final
+src/view/StoreGui.java:230:	Local variable 'lblpinfo2' could be declared final
+src/view/StoreGui.java:235:	Local variable 'lblstock2' could be declared final
+src/view/StoreGui.java:240:	Local variable 'lblpidval2' could be declared final
+src/view/StoreGui.java:244:	Local variable 'lblpinfval2' could be declared final
+src/view/StoreGui.java:253:	Local variable 'btnhome2' could be declared final
+src/view/StoreGui.java:259:	Local variable 'btnAddNew' could be declared final
+src/view/StoreGui.java:264:	Local variable 'lblProductId' could be declared final
+src/view/StoreGui.java:269:	Local variable 'lblProductInfo' could be declared final
+src/view/StoreGui.java:274:	Local variable 'lblStock' could be declared final
+src/view/StoreGui.java:294:	Local variable 'btnhome3' could be declared final
+src/view/StoreGui.java:301:	Avoid variables with short names like e
+src/view/StoreGui.java:301:	Parameter 'e' is not assigned and could be declared final
+src/view/StoreGui.java:301:	publicMethodCommentRequirement Required
+src/view/StoreGui.java:303:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/view/StoreGui.java:303:	Avoid variables with short names like id
+src/view/StoreGui.java:303:	Local variable 'id' could be declared final
+src/view/StoreGui.java:304:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/view/StoreGui.java:304:	Local variable 'pass' could be declared final
+src/view/StoreGui.java:305:	Local variable 'login' could be declared final
+src/view/StoreGui.java:308:	Position literals first in String comparisons
+src/view/StoreGui.java:308:	The String literal "admin" appears 4 times in this file; the first occurrence is on line 308
+src/view/StoreGui.java:313:	Position literals first in String comparisons
+src/view/StoreGui.java:313:	The String literal "sales" appears 4 times in this file; the first occurrence is on line 313
+src/view/StoreGui.java:318:	Position literals first in String comparisons
+src/view/StoreGui.java:320:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/view/StoreGui.java:327:	Avoid variables with short names like e
+src/view/StoreGui.java:327:	Parameter 'e' is not assigned and could be declared final
+src/view/StoreGui.java:327:	publicMethodCommentRequirement Required
+src/view/StoreGui.java:329:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/view/StoreGui.java:329:	Local variable 'pid' could be declared final
+src/view/StoreGui.java:330:	Local variable 'product' could be declared final
+src/view/StoreGui.java:332:	Avoid using Literals in Conditional Statements
+src/view/StoreGui.java:342:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/view/StoreGui.java:342:	The String literal "Product not found" appears 7 times in this file; the first occurrence is on line 342
+src/view/StoreGui.java:342:	The String literal "Search Error" appears 7 times in this file; the first occurrence is on line 342
+src/view/StoreGui.java:348:	Avoid variables with short names like e
+src/view/StoreGui.java:348:	Parameter 'e' is not assigned and could be declared final
+src/view/StoreGui.java:348:	publicMethodCommentRequirement Required
+src/view/StoreGui.java:350:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/view/StoreGui.java:350:	Local variable 'pid' could be declared final
+src/view/StoreGui.java:351:	Local variable 'product' could be declared final
+src/view/StoreGui.java:353:	Avoid using Literals in Conditional Statements
+src/view/StoreGui.java:363:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/view/StoreGui.java:370:	Avoid variables with short names like e
+src/view/StoreGui.java:370:	Parameter 'e' is not assigned and could be declared final
+src/view/StoreGui.java:370:	publicMethodCommentRequirement Required
+src/view/StoreGui.java:372:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/view/StoreGui.java:372:	Local variable 'pid' could be declared final
+src/view/StoreGui.java:373:	Local variable 'product' could be declared final
+src/view/StoreGui.java:375:	Avoid using Literals in Conditional Statements
+src/view/StoreGui.java:381:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
 src/view/StoreGui.java:385:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
-src/view/StoreGui.java:389:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
-src/view/StoreGui.java:396:	Avoid variables with short names like e
-src/view/StoreGui.java:396:	Parameter 'e' is not assigned and could be declared final
-src/view/StoreGui.java:396:	publicMethodCommentRequirement Required
-src/view/StoreGui.java:398:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
-src/view/StoreGui.java:398:	Local variable 'pid' could be declared final
-src/view/StoreGui.java:399:	Local variable 'product' could be declared final
-src/view/StoreGui.java:401:	Avoid using Literals in Conditional Statements
+src/view/StoreGui.java:392:	Avoid variables with short names like e
+src/view/StoreGui.java:392:	Parameter 'e' is not assigned and could be declared final
+src/view/StoreGui.java:392:	publicMethodCommentRequirement Required
+src/view/StoreGui.java:394:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/view/StoreGui.java:394:	Local variable 'pid' could be declared final
+src/view/StoreGui.java:395:	Local variable 'product' could be declared final
+src/view/StoreGui.java:397:	Avoid using Literals in Conditional Statements
+src/view/StoreGui.java:403:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
 src/view/StoreGui.java:407:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
-src/view/StoreGui.java:411:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
-src/view/StoreGui.java:418:	Avoid variables with short names like e
-src/view/StoreGui.java:418:	Parameter 'e' is not assigned and could be declared final
-src/view/StoreGui.java:418:	publicMethodCommentRequirement Required
-src/view/StoreGui.java:420:	Local variable 'pid' could be declared final
-src/view/StoreGui.java:421:	Local variable 'product' could be declared final
-src/view/StoreGui.java:423:	Avoid using Literals in Conditional Statements
+src/view/StoreGui.java:414:	Avoid variables with short names like e
+src/view/StoreGui.java:414:	Parameter 'e' is not assigned and could be declared final
+src/view/StoreGui.java:414:	publicMethodCommentRequirement Required
+src/view/StoreGui.java:416:	Local variable 'pid' could be declared final
+src/view/StoreGui.java:417:	Local variable 'product' could be declared final
+src/view/StoreGui.java:419:	Avoid using Literals in Conditional Statements
+src/view/StoreGui.java:425:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
 src/view/StoreGui.java:429:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
-src/view/StoreGui.java:433:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
-src/view/StoreGui.java:441:	Avoid variables with short names like e
-src/view/StoreGui.java:441:	Parameter 'e' is not assigned and could be declared final
-src/view/StoreGui.java:441:	publicMethodCommentRequirement Required
-src/view/StoreGui.java:442:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
-src/view/StoreGui.java:442:	Position literals first in String comparisons
-src/view/StoreGui.java:443:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
-src/view/StoreGui.java:443:	Position literals first in String comparisons
-src/view/StoreGui.java:447:	Avoid variables with short names like e
-src/view/StoreGui.java:447:	Parameter 'e' is not assigned and could be declared final
-src/view/StoreGui.java:447:	publicMethodCommentRequirement Required
-src/view/StoreGui.java:448:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
-src/view/StoreGui.java:448:	Position literals first in String comparisons
-src/view/StoreGui.java:449:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
-src/view/StoreGui.java:449:	Position literals first in String comparisons
-src/view/StoreGui.java:453:	Avoid variables with short names like e
-src/view/StoreGui.java:453:	Parameter 'e' is not assigned and could be declared final
-src/view/StoreGui.java:453:	publicMethodCommentRequirement Required
-src/view/StoreGui.java:454:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
-src/view/StoreGui.java:454:	Position literals first in String comparisons
-src/view/StoreGui.java:455:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
-src/view/StoreGui.java:455:	Position literals first in String comparisons
-src/view/StoreGui.java:460:	Parameter 'arg0' is not assigned and could be declared final
-src/view/StoreGui.java:460:	publicMethodCommentRequirement Required
-src/view/StoreGui.java:468:	Avoid variables with short names like e
-src/view/StoreGui.java:468:	Parameter 'e' is not assigned and could be declared final
-src/view/StoreGui.java:468:	publicMethodCommentRequirement Required
-src/view/StoreGui.java:470:	Local variable 'pid' could be declared final
-src/view/StoreGui.java:471:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
-src/view/StoreGui.java:471:	Local variable 'stock' could be declared final
-src/view/StoreGui.java:472:	Local variable 'product' could be declared final
+src/view/StoreGui.java:437:	Avoid variables with short names like e
+src/view/StoreGui.java:437:	Parameter 'e' is not assigned and could be declared final
+src/view/StoreGui.java:437:	publicMethodCommentRequirement Required
+src/view/StoreGui.java:438:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/view/StoreGui.java:438:	Position literals first in String comparisons
+src/view/StoreGui.java:439:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/view/StoreGui.java:439:	Position literals first in String comparisons
+src/view/StoreGui.java:443:	Avoid variables with short names like e
+src/view/StoreGui.java:443:	Parameter 'e' is not assigned and could be declared final
+src/view/StoreGui.java:443:	publicMethodCommentRequirement Required
+src/view/StoreGui.java:444:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/view/StoreGui.java:444:	Position literals first in String comparisons
+src/view/StoreGui.java:445:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/view/StoreGui.java:445:	Position literals first in String comparisons
+src/view/StoreGui.java:449:	Avoid variables with short names like e
+src/view/StoreGui.java:449:	Parameter 'e' is not assigned and could be declared final
+src/view/StoreGui.java:449:	publicMethodCommentRequirement Required
+src/view/StoreGui.java:450:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/view/StoreGui.java:450:	Position literals first in String comparisons
+src/view/StoreGui.java:451:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/view/StoreGui.java:451:	Position literals first in String comparisons
+src/view/StoreGui.java:456:	Parameter 'arg0' is not assigned and could be declared final
+src/view/StoreGui.java:456:	publicMethodCommentRequirement Required
+src/view/StoreGui.java:464:	Avoid variables with short names like e
+src/view/StoreGui.java:464:	Parameter 'e' is not assigned and could be declared final
+src/view/StoreGui.java:464:	publicMethodCommentRequirement Required
+src/view/StoreGui.java:466:	Local variable 'pid' could be declared final
+src/view/StoreGui.java:467:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/view/StoreGui.java:467:	Local variable 'stock' could be declared final
+src/view/StoreGui.java:468:	Local variable 'product' could be declared final
+src/view/StoreGui.java:470:	Avoid using Literals in Conditional Statements
+src/view/StoreGui.java:472:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
 src/view/StoreGui.java:474:	Avoid using Literals in Conditional Statements
-src/view/StoreGui.java:476:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
-src/view/StoreGui.java:478:	Avoid using Literals in Conditional Statements
-src/view/StoreGui.java:488:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
-src/view/StoreGui.java:493:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
-src/view/StoreGui.java:502:	Avoid variables with short names like e
-src/view/StoreGui.java:502:	Parameter 'e' is not assigned and could be declared final
-src/view/StoreGui.java:502:	publicMethodCommentRequirement Required
-src/view/StoreGui.java:504:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
-src/view/StoreGui.java:504:	Local variable 'pid' could be declared final
-src/view/StoreGui.java:505:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
-src/view/StoreGui.java:505:	Local variable 'pinf' could be declared final
-src/view/StoreGui.java:506:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
-src/view/StoreGui.java:506:	Local variable 'stock' could be declared final
-src/view/StoreGui.java:507:	Local variable 'product' could be declared final
+src/view/StoreGui.java:484:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/view/StoreGui.java:489:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/view/StoreGui.java:498:	Avoid variables with short names like e
+src/view/StoreGui.java:498:	Parameter 'e' is not assigned and could be declared final
+src/view/StoreGui.java:498:	publicMethodCommentRequirement Required
+src/view/StoreGui.java:500:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/view/StoreGui.java:500:	Local variable 'pid' could be declared final
+src/view/StoreGui.java:501:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/view/StoreGui.java:501:	Local variable 'pinf' could be declared final
+src/view/StoreGui.java:502:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/view/StoreGui.java:502:	Local variable 'stock' could be declared final
+src/view/StoreGui.java:503:	Local variable 'product' could be declared final
+src/view/StoreGui.java:505:	Avoid using Literals in Conditional Statements
+src/view/StoreGui.java:507:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
 src/view/StoreGui.java:509:	Avoid using Literals in Conditional Statements
-src/view/StoreGui.java:511:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
-src/view/StoreGui.java:513:	Avoid using Literals in Conditional Statements
+src/view/StoreGui.java:516:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
 src/view/StoreGui.java:520:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
-src/view/StoreGui.java:524:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
