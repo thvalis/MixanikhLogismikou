@@ -63,7 +63,7 @@ public class StoreGui extends JFrame {
 	/**
 	 * Initialize the contents of the frame.
 	 */
-	private void initialize() {
+	public void initialize() {
 		frame = new JFrame();
 		frame.setBounds(100, 100, 300, 300);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -307,7 +307,8 @@ public class StoreGui extends JFrame {
 					{
 						int id = Integer.parseInt(TF_id.getText());
 						String pass = String.valueOf(PSWF.getPassword());
-						Login login = new Login(id,pass);
+						Login login = new Login();
+						login.Loging(id,pass);
 						role=login.ReturnRole();
 						if (role.equals("admin")) 
 							{
@@ -521,7 +522,7 @@ public class StoreGui extends JFrame {
 						}
 					else
 						{
-						JOptionPane.showMessageDialog(frame,"Database could not update","Error",JOptionPane.WARNING_MESSAGE);
+						JOptionPane.showMessageDialog(frame,"Database could not update check product id may already exist","Error",JOptionPane.WARNING_MESSAGE);
 						}
 						
 					

@@ -16,12 +16,8 @@ public class Product {
 	private String pinfo;
 	private int pid;
 	private int stock;
-	
-	public Product() 
-		{
+	private int existflag;
 		
-		}
-	
 	public int ProductSearch(int pid)
 		{
 		this.pid=pid;
@@ -99,6 +95,9 @@ public class Product {
 		ResultSet rs=null;
 		try
 		{
+			existflag=ProductSearch(pid);
+			if (existflag==1) {return 0;}
+			else {
 			Class.forName("com.mysql.jdbc.Driver").newInstance();
 			String connectionUrl = "jdbc:mysql://127.0.0.1:3306/stockhousedb";
 			String connectionUser = "root";
@@ -109,7 +108,7 @@ public class Product {
 			stmt.setString(2,pinfo);
 			stmt.setInt(3,stock);
 			stmt.execute();
-			return 1;
+			return 1;}
 		}catch (Exception e1) {e1.printStackTrace();}
 		finally
 		{

@@ -14,7 +14,7 @@ public class Login {
 	private int id;
 	private String pass;
 	
-	public Login(int id,String pass) {
+	public void Loging(int id,String pass) {
 		this.id=id;
 		this.pass=pass;
 		Connection conn=null;
