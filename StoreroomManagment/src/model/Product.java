@@ -12,8 +12,8 @@ import java.sql.Statement;
 public class Product {
 	
 	private String pinfo=null;
-	private int pid=0;
-	private int stock=0;
+	private int pid=02;
+	private int stock=03;
 	private int existflag=0;
 		
 	public int productSearch(int pid)
