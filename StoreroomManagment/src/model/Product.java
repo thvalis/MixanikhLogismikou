@@ -11,8 +11,6 @@ import java.sql.Statement;
 
 public class Product {
 	
-		private String sad="test";
-
 	private String pinfo=null;
 	private int pid=0;
 	private int stock=0;
